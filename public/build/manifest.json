@@ -20,10 +20,25 @@
     "file": "assets/Cadiz-SemiBold-C4gNgby0.woff2",
     "src": "resources/css/fonts/Cadiz-SemiBold.woff2"
   },
+  "resources/css/maps.css": {
+    "file": "assets/maps-CDI5RPwZ.css",
+    "src": "resources/css/maps.css",
+    "isEntry": true
+  },
+  "resources/img/marker.svg": {
+    "file": "assets/marker-B9-7sufi.svg",
+    "src": "resources/img/marker.svg"
+  },
   "resources/js/app.js": {
     "file": "assets/app-BRWTec0F.js",
     "name": "app",
     "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/js/maps.js": {
+    "file": "assets/maps-DMeYmqXd.js",
+    "name": "maps",
+    "src": "resources/js/maps.js",
     "isEntry": true
   }
 }
