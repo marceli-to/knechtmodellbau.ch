@@ -2,9 +2,9 @@
 @section('page_title', 'Leistungen')
 @section('content')
 <div class="md:grid md:grid-cols-12 md:gap-x-20">
-  <div class="mt-110 md:mt-105 lg:mt-170 md:col-span-9 lg:col-span-6 md:col-start-3 lg:col-start-2 lg:min-h-[calc(100vh_-_230px)] lg:flex lg:flex-col lg:justify-between">
+  <div class="mt-140 lg:mt-170 md:col-span-9 lg:col-span-6 md:col-start-3 lg:col-start-2 lg:min-h-[calc(100vh_-_230px)] lg:flex lg:flex-col lg:justify-between">
     <div>
-      <div class="mb-50 md:mb-40 lg:mb-30 lg:max-w-[540px] hyphens-auto lg:hyphens-none">
+      <div class="mb-50 md:mb-40 lg:mb-30 prose-width hyphens-auto lg:hyphens-none">
         <p>Seit über 50 Jahren bieten wir das gesamte Spektrum des modernen Modellbaus und verbinden handwerkliches Geschick mit Leidenschaft und Effizienz. Von der optimalen Darstellung über die passende Materialwahl bis zum effizienten Herstellungsprozess sind wir Ihr zuverlässiger Partner für Komplettlösungen, sei es für Architektur- und Designmodelle, Prototypen, Einzelstücke oder hochwertige Beschriftungen.</p>
         <p>Derzeit überarbeiten wir unseren Unternehmensauftritt, unsere neue Website ist ab Herbst 2024 online.</p>
       </div>

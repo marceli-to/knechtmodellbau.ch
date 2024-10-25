@@ -2,6 +2,7 @@ import defaultTheme from 'tailwindcss/defaultTheme';
 /** @type {import('tailwindcss').Config} */
 
 export default {
+
   content: [
     './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
     './storage/framework/views/*.php',
@@ -9,6 +10,7 @@ export default {
     './resources/**/*.js',
     './resources/**/*.vue',
   ],
+
   theme: {
 
     extend: {
@@ -24,16 +26,16 @@ export default {
       },
 
       fontFamily: {
-        'cadiz-book': ['Cadiz-Book', ...defaultTheme.fontFamily.sans],
-        'cadiz-semibold': ['Cadiz-SemiBold', ...defaultTheme.fontFamily.sans],
+        'book': ['Cadiz-Book', ...defaultTheme.fontFamily.sans],
+        'semibold': ['Cadiz-SemiBold', ...defaultTheme.fontFamily.sans],
       },
 
       fontSize: {
-        'tiny': '.75rem',    // 12px
-        'sm': '1rem',        // 16px
-        'md':  '1.125rem',   // 18px
-        'lg':  '1.5rem',     // 24px
-        'xl':  '2rem',       // 32px
+        'tiny': '.75rem',      // 12px
+        'sm':   '1rem',        // 16px
+        'md':   '1.125rem',   // 18px
+        'lg':   '1.5rem',     // 24px
+        'xl':   '2rem',       // 32px
       },
       
       zIndex: {
@@ -43,6 +45,7 @@ export default {
         '90': 90,
         '100': 100,
       },
+
     },
 
     spacing: {
@@ -300,5 +303,6 @@ export default {
     },
     
   },
+  
   plugins: [],
 };

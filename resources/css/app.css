@@ -28,3 +28,8 @@ main ul {
 main ul p {
   @apply mb-0 inline;
 }
+
+/* Helpers */
+.prose-width {
+  @apply lg:max-w-[540px];
+}
