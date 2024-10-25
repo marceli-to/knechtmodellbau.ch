@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="512" height="512"><svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M16 137V374.624H101.545V245.832V137H16Z" fill="black"></path>
+<path d="M496 137H410.455V374.624H496V137Z" fill="black"></path>
+<path d="M101.545 245.832L175.683 374.624H275.01L164.277 183.1L101.545 245.832Z" fill="black"></path>
+<path d="M210.376 137L321.109 328.525L383.842 265.792L309.703 137H210.376Z" fill="black"></path>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: invert(100%); } }
+</style></svg>
