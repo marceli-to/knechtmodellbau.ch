@@ -1,0 +1,15 @@
+<h2 class="font-semibold">Impressum</h2>
+<div class="mt-20">
+  <h3 class="font-semibold mb-2">Design und Programmierung</h3>
+  <div>
+    WBG AG – Visuelle Kommunikation, <br class="md:hidden">Zürich / <a href="https://wbg.ch" class="hover:underline underline-offset-2 decoration-2">wbg.ch</a>
+  </div>
+</div>
+<div class="mt-20">
+  <h3 class="font-semibold mb-2">Bilder</h3>
+  <div>
+    Daniel Sutter, Zürich / sutterdaniel.ch<br>
+    WBG AG – Visuelle Kommunikation, Zürich<br> 
+    Knecht Modellbau AG, Wettingen
+  </div>
+</div>
