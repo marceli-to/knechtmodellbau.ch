@@ -1,5 +1,4 @@
 @extends('app')
-@section('page_title', 'Leistungen')
 @section('content')
 <div class="md:grid md:grid-cols-12 md:gap-x-20">
   <div class="mt-140 lg:mt-170 md:col-span-9 lg:col-span-6 md:col-start-3 lg:col-start-2 lg:min-h-[calc(100vh_-_230px)] lg:flex lg:flex-col lg:justify-between">
