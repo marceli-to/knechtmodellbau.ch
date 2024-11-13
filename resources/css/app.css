@@ -22,11 +22,20 @@ main p:last-child {
 }
 
 main ul:not(nav ul) {
-  @apply list-disc list-inside m-0 mb-20 lg:mb-40;
+  @apply list-['—_'] m-0 mb-20;
 }
+
 
 main ul:not(nav ul) p {
   @apply mb-0 inline;
+}
+
+main ul:not(nav ul) li {
+  @apply ml-18 pl-5;
+}
+
+strong {
+  @apply font-semibold;
 }
 
 /* Helpers */
