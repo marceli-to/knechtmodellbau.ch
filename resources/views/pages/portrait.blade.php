@@ -1,6 +1,7 @@
 @extends('app')
 @section('page_title', 'Portrait')
 @section('content')
+
 <div class="md:grid md:grid-cols-12 md:gap-x-20">
   <div class="md:col-span-8 md:col-start-3 lg:col-span-5 lg:col-start-2 prose-width">
     <p>Die 1970 von Max Knecht gegründete Einzelfirma, später Knecht&nbsp;+&nbsp;Partner Modellbau AG, wurde im Jahr 2000 von Christoph Smolders übernommen. Im Rahmen eines Rebrandings wurde die Firma im Jahr 2024 in Knecht Modellbau AG umbenannt. Das Unternehmen hat sich technologisch stets weiterentwickelt. Neben der nach wie vor wichtigen Handwerkskunst kommen modernste Produktionsverfahren zum Einsatz. Die Knecht Modellbau AG ist seit über 40 Jahren Lehrbetrieb für Architekturmodellbauer/innen&nbsp;EFZ.</p>
@@ -8,6 +9,7 @@
 </div>
 
 <div class="flex flex-col space-y-40 md:space-y-60 mt-40 md:mt-60">
+
   <div class="md:grid md:grid-cols-12 md:gap-x-20">
     <div class="md:col-span-12">
       <div class="flex flex-col md:grid md:grid-cols-12 gap-y-40 md:gap-x-20 md:gap-y-60">
@@ -39,6 +41,7 @@
       </div>
     </div>
   </div>
+
   <div class="flex flex-col md:grid md:grid-cols-12 gap-20 lg:gap-y-0">
     <div class="md:col-span-12 lg:col-span-6 flex flex-col gap-y-20">
       <div>
@@ -70,11 +73,11 @@
       </div>
     </div>
     <div class="md:col-span-12 lg:col-span-6 lg:relative">
-      <picture>
-        <source srcset="/img/knecht_modellbau_portrait_08-700w.webp 700w, /img/knecht_modellbau_portrait_08-1200w.webp 1200w, /img/knecht_modellbau_portrait_08-1600w.webp 1600w" type="image/webp">
-        <source srcset="/img/knecht_modellbau_portrait_08-700w.jpg 700w, /img/knecht_modellbau_portrait_08-1200w.jpg 1200w, /img/knecht_modellbau_portrait_08-1600w.jpg 1600w" type="image/jpeg">
-        <img src="/img/knecht_modellbau_portrait_08-700w.jpg" alt="" title="" height="939" width="700" class="w-full block lg:absolute lg:!h-full object-cover">
-      </picture>
+      <x-team.visual 
+        image="knecht_modellbau_portrait_08" 
+        height="939" 
+        width="700" 
+        class="w-full block lg:absolute lg:!h-full object-cover" />
     </div>
     <div class="hidden lg:col-span-12 lg:grid lg:grid-cols-12 lg:gap-x-20">
       <div class="lg:col-span-3">
@@ -93,6 +96,7 @@
       </div>
     </div>
   </div>
+
   <div class="md:grid md:grid-cols-12 md:gap-x-20">
     <div class="md:col-span-12">
       <div class="flex flex-col md:grid md:grid-cols-12 gap-y-40 md:gap-x-20 md:gap-y-60">
@@ -126,6 +130,7 @@
       </div>
     </div>
   </div>
+
   <div class="flex flex-col md:grid md:grid-cols-12 gap-20 lg:gap-y-0">
     <div class="md:col-span-12 lg:col-span-6 flex flex-col gap-y-20">
       <div>
@@ -197,13 +202,14 @@
       </div>
     </div>
   </div>
+
   <div class="flex flex-col md:grid md:grid-cols-12 gap-20 lg:gap-y-0">
     <div class="md:col-span-12 lg:col-span-6 lg:relative">
-      <picture>
-        <source srcset="/img/knecht_modellbau_portrait_18-700w.webp 700w, /img/knecht_modellbau_portrait_18-1200w.webp 1200w, /img/knecht_modellbau_portrait_18-1600w.webp 1600w" type="image/webp">
-        <source srcset="/img/knecht_modellbau_portrait_18-700w.jpg 700w, /img/knecht_modellbau_portrait_18-1200w.jpg 1200w, /img/knecht_modellbau_portrait_18-1600w.jpg 1600w" type="image/jpeg">
-        <img src="/img/knecht_modellbau_portrait_18-700w.jpg" alt="" title="" height="939" width="700" class="w-full block lg:absolute lg:!h-full object-cover">
-      </picture>
+      <x-team.visual 
+        image="knecht_modellbau_portrait_18" 
+        height="939" 
+        width="700" 
+        class="w-full block lg:absolute lg:!h-full object-cover" />
     </div>
     <div class="md:col-span-12 lg:col-span-6 flex flex-col gap-y-20">
       <div>
@@ -247,6 +253,7 @@
       </div>
     </div>
   </div>
+
   <div class="flex flex-col md:grid md:grid-cols-12 gap-20 lg:gap-y-0">
     <div class="md:col-span-12 lg:col-span-6 flex flex-col gap-y-20">
       <div>
@@ -262,12 +269,13 @@
       </div>
     </div>
     <div class="md:col-span-12 lg:col-span-6 lg:relative">
-      <picture>
-        <source srcset="/img/knecht_modellbau_portrait_25-700w.webp 700w, /img/knecht_modellbau_portrait_25-1200w.webp 1200w, /img/knecht_modellbau_portrait_25-1600w.webp 1600w" type="image/webp">
-        <source srcset="/img/knecht_modellbau_portrait_25-700w.jpg 700w, /img/knecht_modellbau_portrait_25-1200w.jpg 1200w, /img/knecht_modellbau_portrait_25-1600w.jpg 1600w" type="image/jpeg">
-        <img src="/img/knecht_modellbau_portrait_25-700w.jpg" alt="" title="" height="939" width="700" class="w-full block lg:absolute lg:!h-full object-cover">
-      </picture>
+      <x-team.visual 
+        image="knecht_modellbau_portrait_25" 
+        height="939" 
+        width="700" 
+        class="w-full block lg:absolute lg:!h-full object-cover"/>
     </div>
   </div>
+
 </div>
 @endsection
