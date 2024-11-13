@@ -1,10 +1,10 @@
 @php
-$pageTitle = trim($__env->yieldContent('page_title'));
-$title = $pageTitle ? "$pageTitle – " . __(env('APP_NAME')) : __(env('APP_NAME'));
+$siteTitle = trim($__env->yieldContent('site_title'));
+$title = $siteTitle ? "$siteTitle – " . __(env('APP_NAME')) : __(env('APP_NAME'));
 $description = __(env('APP_DESCRIPTION'));
 @endphp
 <!doctype html>
-<html lang="de" class="scroll-smooth overflow-y-auto" x-data="{ show_menu: false }">
+<html lang="de" class="scroll-smooth {{ Route::is('page.home') ? 'overflow-y-auto' : 'overflow-y-scroll' }}" x-data="{ show_menu: false }">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">

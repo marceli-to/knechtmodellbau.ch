@@ -23,6 +23,7 @@ export default {
       },
 
       colors: {
+        'steel': '#646464',
       },
 
       fontFamily: {

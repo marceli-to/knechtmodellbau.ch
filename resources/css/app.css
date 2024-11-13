@@ -21,11 +21,11 @@ main p:last-child {
   @apply mb-0;
 }
 
-main ul {
+main ul:not(nav ul) {
   @apply list-disc list-inside m-0 mb-20 lg:mb-40;
 }
 
-main ul p {
+main ul:not(nav ul) p {
   @apply mb-0 inline;
 }
 

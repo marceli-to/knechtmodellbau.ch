@@ -1,4 +1,5 @@
 @extends('app')
+@section('site_title', 'Kontakt')
 @section('page_title', 'Kontakt')
 @section('content')
 <div class="flex flex-col md:grid md:grid-cols-12 md:gap-x-20 gap-y-40 md:gap-y-60">
