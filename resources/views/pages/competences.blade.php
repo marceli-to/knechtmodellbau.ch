@@ -1,5 +1,5 @@
 @extends('app')
-@section('page_title', 'Leistungen')
+@section('page_title', 'Kompetenzen')
 @section('content')
 <div class="flex flex-col md:grid md:grid-cols-12 md:gap-x-20">
   <x-services.service 

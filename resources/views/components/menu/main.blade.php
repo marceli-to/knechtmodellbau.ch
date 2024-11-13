@@ -11,7 +11,7 @@
     <ul class="flex flex-col gap-y-16 lg:gap-y-32 leading-none">
       <x-menu.main-item href="page.portrait" title="Portrait" />
       <x-menu.main-item href="page.gallery" title="Galerie" />
-      <x-menu.main-item href="page.services" title="Leistungen" />
+      <x-menu.main-item href="page.competences" title="Kompetenzen" />
       <x-menu.main-item href="page.contact" title="Kontakt" />
     </ul> 
   </nav>
