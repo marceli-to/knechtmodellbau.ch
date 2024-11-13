@@ -8,8 +8,7 @@
 <div class="mt-20">
   <h3 class="font-semibold mb-2">Bilder</h3>
   <div>
-    Daniel Sutter, Zürich / sutterdaniel.ch<br>
-    WBG AG – Visuelle Kommunikation, Zürich<br> 
-    Knecht Modellbau AG, Wettingen
+    Daniel Sutter, Zürich / <a href="https://sutterdaniel.ch" class="hover:underline underline-offset-2 decoration-2">sutterdaniel.ch</a><br>
+    Knecht Modellbau AG, WBG AG<br> 
   </div>
 </div>
