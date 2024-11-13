@@ -77,7 +77,7 @@
         image="knecht_modellbau_portrait_08" 
         height="939" 
         width="700" 
-        class="w-full block lg:absolute lg:!h-full object-cover" />
+        imageClass="w-full block lg:absolute lg:!h-full object-cover" />
     </div>
     <div class="hidden lg:col-span-12 lg:grid lg:grid-cols-12 lg:gap-x-20">
       <div class="lg:col-span-3">
@@ -209,7 +209,7 @@
         image="knecht_modellbau_portrait_18" 
         height="939" 
         width="700" 
-        class="w-full block lg:absolute lg:!h-full object-cover" />
+        imageClass="w-full block lg:absolute lg:!h-full object-cover" />
     </div>
     <div class="md:col-span-12 lg:col-span-6 flex flex-col gap-y-20">
       <div>
@@ -273,7 +273,7 @@
         image="knecht_modellbau_portrait_25" 
         height="939" 
         width="700" 
-        class="w-full block lg:absolute lg:!h-full object-cover"/>
+        imageClass="w-full block lg:absolute lg:!h-full object-cover"/>
     </div>
   </div>
 
