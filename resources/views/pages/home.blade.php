@@ -16,7 +16,6 @@
           <x-swiper.slide image="knecht_modellbau_home_06" alt="" />
           <x-swiper.slide image="knecht_modellbau_home_07" alt="" />
           <x-swiper.slide image="knecht_modellbau_home_08" alt="" />
-          <x-swiper.slide image="knecht_modellbau_home_09" alt="" />
         </x-swiper.wrapper>
       </div>
     </div>
@@ -34,7 +33,6 @@
       <x-swiper.slide image="knecht_modellbau_home_06" alt="" />
       <x-swiper.slide image="knecht_modellbau_home_07" alt="" />
       <x-swiper.slide image="knecht_modellbau_home_08" alt="" />
-      <x-swiper.slide image="knecht_modellbau_home_09" alt="" />
     </x-swiper.wrapper>
   </div>
 </div>
