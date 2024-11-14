@@ -23,7 +23,7 @@
     <x-misc.address />
   </div>
   <div 
-    class="min-h-200 hidden lg:relative lg:z-40 lg:block lg:col-span-5 md:col-start-8"
+    class="hidden lg:relative lg:z-40 lg:block lg:col-span-5 md:col-start-8 lg:max-h-[calc(100dvh_-_260px)]"
     :class="{ '!z-10': show_menu }">
     <x-swiper.wrapper>
       <x-swiper.slide image="knecht_modellbau_home_01" alt="" />
