@@ -6,7 +6,7 @@
     @class([
       'w-full px-30 md:px-35 lg:px-30',
       'pt-140 lg:pt-200' => Request::routeIs('page.home'),
-      'pt-110 md:pt-140 lg:pt-200' => !Request::routeIs('page.home'),
+      'pt-110 md:pt-143 lg:pt-163' => !Request::routeIs('page.home'),
     ])>
     <ul class="flex flex-col gap-y-16 lg:gap-y-32 leading-none">
       <x-menu.main-item href="page.portrait" title="Portrait" />
