@@ -8,6 +8,10 @@
 
 [x-cloak] { display: none !important; }
 
+* {
+  font-variant-ligatures: none;
+}
+
 /* Global styles */
 main {
   @apply flex-1;

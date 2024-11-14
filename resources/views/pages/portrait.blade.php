@@ -27,7 +27,7 @@
         </div>
         <div class="md:col-span-6 lg:col-span-3">
           <x-team.portrait 
-            name="Brogle Lee" 
+            name="Lee Brogle" 
             title="Architekturmodellbauer" 
             bio="Seit 2019 bei Knecht Modellbau" 
             image="knecht_modellbau_portrait_03_brogle_lee" />
@@ -52,7 +52,7 @@
         <div class="md:col-span-6 lg:col-span-6">
           <x-team.portrait 
             name="Roger Baumgartner" 
-            title="Architekturmodellbauer / Kunststofftechiker HF" 
+            title="Architekturmodellbauer / Kunststofftechniker HF" 
             email="baumgartner@knechtmodellbau.ch"
             bio="Seit 1994 bei Knecht Modellbau"
             image="knecht_modellbau_portrait_06_roger_baumgartner" 
@@ -64,7 +64,6 @@
           <x-team.portrait 
             name="Dario Bugmann" 
             title="Architekturmodellbauer / Hochbauzeichner" 
-            email="bugmann@knechtmodellbau.ch"
             bio="Bachelor of Arts in Architektur" 
             image="knecht_modellbau_portrait_07_dario_bugmann"
             class="md:!col-span-6"
@@ -84,7 +83,7 @@
       <div class="lg:col-span-3">
         <x-team.caption 
           name="Roger Baumgartner" 
-          title="Architekturmodellbauer / Kunststofftechiker HF" 
+          title="Architekturmodellbauer / Kunststofftechniker&nbsp;HF" 
           email="baumgartner@knechtmodellbau.ch"
           bio="Seit 1994 bei Knecht Modellbau" />
       </div>
@@ -92,7 +91,6 @@
         <x-team.caption 
           name="Dario Bugmann" 
           title="Architekturmodellbauer / Hochbauzeichner" 
-          email="bugmann@knechtmodellbau.ch"
           bio="Bachelor of Arts in Architektur" />
       </div>
     </div>
@@ -105,7 +103,6 @@
           <x-team.portrait 
             name="Benjamin Kämpf" 
             title="Architekturmodellbauer" 
-            email="kaempf@knechtmodellbau.ch"
             bio="Seit 2016 bei Knecht Modellbau"
             image="knecht_modellbau_portrait_09_benjamin_kaempf" />
         </div>

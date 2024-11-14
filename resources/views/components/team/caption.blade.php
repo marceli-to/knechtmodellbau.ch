@@ -11,12 +11,12 @@
   </h2>
   @if ($title)
     <div>
-      {{ $title }}
+      {!! $title !!}
     </div>
   @endif
   @if ($bio)
     <div>
-      {{ $bio }}
+      {!! $bio !!}
     </div>
   @endif
   @if ($email)
@@ -24,7 +24,8 @@
       <a 
         href="mailto:{{ $email }}"
         class="hover:underline underline-offset-2 decoration-1">
-        {{ $email }}
+        <span class="hidden lg:block xl:hidden">E-Mail</span>
+        <span class="lg:hidden xl:block">{{ $email }}</span>
       </a>
     </div>
   @endif
