@@ -30,7 +30,7 @@
             name="Lee Brogle" 
             title="Architekturmodellbauer" 
             bio="Seit 2019 bei Knecht Modellbau" 
-            image="knecht_modellbau_portrait_03_brogle_lee" />
+            image="knecht_modellbau_portrait_03_lee_brogle" />
         </div>
         <div class="md:col-span-6 lg:col-span-3">
           <x-team.portrait 
@@ -153,7 +153,7 @@
     </div>
     <div class="md:col-span-12 lg:col-span-6 flex flex-col gap-y-20">
       <div>
-        <x-team.visual image="knecht_modellbau_portrait_13" class="w-full h-auto aspect-[760/460]" height="460" width="760" />
+        <x-team.visual image="knecht_modellbau_portrait_16" class="w-full h-auto aspect-[760/460]" height="460" width="760" />
       </div>
       <div class="flex flex-col md:grid md:grid-cols-12 gap-y-20 md:gap-y-0 md:gap-x-20">
         <div class="md:col-span-6 lg:col-span-6">
