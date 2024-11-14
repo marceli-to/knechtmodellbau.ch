@@ -24,11 +24,12 @@ export default {
 
       colors: {
         'steel': '#646464',
+        'aqua': '#b4ffff',
       },
 
       fontFamily: {
         'book': ['Cadiz-Book', ...defaultTheme.fontFamily.sans],
-        'semibold': ['Cadiz-SemiBold', ...defaultTheme.fontFamily.sans],
+        'semi': ['Cadiz-SemiBold', ...defaultTheme.fontFamily.sans],
       },
 
       fontSize: {

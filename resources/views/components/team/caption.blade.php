@@ -6,7 +6,7 @@
   'captionClass' => null
 ])
  <div class="pt-16 {{ $captionClass }}">
-  <h2 class="font-semibold">
+  <h2 class="font-semi">
     {{ $name }}
   </h2>
   @if ($title)

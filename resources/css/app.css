@@ -22,20 +22,19 @@ main p:last-child {
 }
 
 main ul:not(nav ul) {
-  @apply list-['—_'] m-0 mb-20;
+  @apply list-['–_'] m-0 mb-20;
 }
-
 
 main ul:not(nav ul) p {
   @apply mb-0 inline;
 }
 
 main ul:not(nav ul) li {
-  @apply ml-18 pl-5;
+  @apply ml-18 pl-6;
 }
 
 strong {
-  @apply font-semibold;
+  @apply font-semi font-normal;
 }
 
 /* Helpers */

@@ -11,7 +11,7 @@
       'height' => 1200,
       'width' => 789
     ]">
-    <h2 class="font-semibold">Signaletik</h2>
+    <h2 class="font-semi">Signaletik</h2>
     <p>Signaletik umfasst hochwertige Beschriftungen und visuelle Hinweise für verschiedene Anwendungen. Unsere Dienstleistung umfasst die Herstellung und Montage von hochwertigen dreidimensionalen Beschriftungen aus einer Vielzahl von Materialien und Oberflächen. Ziel ist es, die Kommunikation zu verbessern und das Benutzererlebnis in Ausstellungen, öffentlichen Räumen oder bei Veranstaltungen zu optimieren.</p>
   </x-competence.item>
 </div>

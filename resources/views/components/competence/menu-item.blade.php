@@ -5,7 +5,7 @@
     title="{{ __($title) }}"
     @class([
       'group text-steel hover:text-black transition-colors flex justify-start items-center gap-x-6 md:gap-x-8',
-      'font-semibold !text-black' => Route::is($href),
+      'font-semi !text-black' => Route::is($href),
     ])>
     <x-icons.chevron 
       class="{{ Route::is($href) ? 'text-black' : 'text-steel' }} group-hover:text-black transition-colors"

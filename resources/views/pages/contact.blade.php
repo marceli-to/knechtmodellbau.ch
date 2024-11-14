@@ -6,8 +6,34 @@
   <div class="md:col-span-8 md:col-start-3 lg:col-span-6 lg:col-start-2">
     <x-misc.address />
   </div>
-  <div class="md:col-span-12 lg:col-span-6 lg:col-start-2">
-    <x-misc.map />
+  <div class="md:col-span-12 lg:col-span-11 lg:col-start-2 md:grid md:grid-cols-subgrid md:gap-20">
+    <div class="md:col-span-12 lg:col-span-6">
+      <x-misc.map />
+    </div>
+    <div class="md:col-start-3 md:col-span-8 lg:col-span-4 mt-40 md:mt-60 lg:mt-0 bg-aqua min-h-200 p-12 lg:p-16">
+      <div>
+        <strong>2025 bieten wir folgende Schnuppertage an:</strong>
+        <ul class="mt-4">
+          <li>26. Februar 2025</li>
+          <li>30. April 2025</li>
+          <li>24. September 2025</li>
+          <li>5. November 2025</li>
+        </ul>
+        <p>
+          Bewirb Dich jetz per E-Mail an:<br>
+          <strong>
+            <a href="mailto:schnuppern@knechtmodellbau.ch">schnuppern@knechtmodellbau.ch</a>
+          </strong>
+        </p>
+        <p>Gib uns Deinen Namen, Deine Adresse und Deine Telefonnummer an.</p>
+        <div>Beantworte in Deiner E-Mail folgende Fragen in einem kurzen Text:</div>
+        <ul class="!mb-0 mt-4">
+          <li>Wie bist Du auf den Beruf des Architekturmodellbaus gekommen?</li>
+          <li>Was interessiert Dich an diesem Beruf?</li>
+          <li>Warum möchtest Du diesen Beruf eventuell einmal ausüben?</li>
+        </ul>
+      </div>
+    </div>
   </div>
   <div class="md:col-span-8 md:col-start-3 lg:col-span-6 lg:col-start-2">
     <x-misc.imprint />

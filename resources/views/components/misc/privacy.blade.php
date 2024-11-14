@@ -1,9 +1,9 @@
 <div class="mt-60">
-  <h3 class="font-semibold mb-2">Datenschutzerklärung</h3>
+  <h3 class="font-semi mb-2">Datenschutzerklärung</h3>
   <p>
     Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.
   </p>
-  <h3 class="font-semibold mb-2">Cookies</h3>
+  <h3 class="font-semi mb-2">Cookies</h3>
   <p>
     Die Internetseiten verwenden teilweise so genannte Cookies. Cookies richten auf Ihrem Rechner keinen Schaden an und enthalten keine Viren. Cookies dienen dazu, unser Angebot nutzerfreundlicher, effektiver und sicherer zu machen. Cookies sind kleine Textdateien, die auf Ihrem Rechner abgelegt werden und die Ihr Browser speichert.
   </p>
@@ -13,7 +13,7 @@
   <p>
     Sie können Ihren Browser so einstellen, dass Sie über das Setzen von Cookies informiert werden und Cookies nur im Einzelfall erlauben, die Annahme von Cookies für bestimmte Fälle oder generell ausschliessen sowie das automatische Löschen der Cookies beim Schliessen des Browser aktivieren. Bei der Deaktivierung von Cookies kann die Funktionalität dieser Website eingeschränkt sein.
   </p>
-  <h2 class="font-semibold mb-2"> Hosting Provider & Server-LogFiles</h2>
+  <h2 class="font-semi mb-2"> Hosting Provider & Server-LogFiles</h2>
   <p>
     Der Provider der Seiten erhebt und speichert automatisch Informationen in so genannten Server-Log Files, die Ihr Browser automatisch an uns übermittelt. Dies sind:
   </p>
@@ -32,7 +32,7 @@
     Diese Daten sowie alle Daten dieser Website werden bei unserem Hosting-Provider [Insert Provider], [Insert Location], Schweiz gespeichert, deren Datenschutzerklärung Sie hier [Insert Link] finden.
   </p>
 
-  <h3 class="font-semibold mb-2">Google Analytics</h3>
+  <h3 class="font-semi mb-2">Google Analytics</h3>
   <p>
     Diese Website nutzt Funktionen des Webanalysedienstes Google Analytics. Anbieter ist die Google Inc., 1600 Amphitheatre Parkway Mountain View, CA 94043, USA.
   </p>

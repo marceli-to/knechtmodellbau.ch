@@ -1,4 +1,4 @@
-<address {{ $attributes->merge(['class' => 'font-semibold not-italic']) }}>
+<address {{ $attributes->merge(['class' => 'font-semi not-italic']) }}>
   <div class="md:hidden">
     Knecht Modellbau AG<br>
     Jurastrasse 58<br>
