@@ -1,6 +1,7 @@
 @extends('app')
 @section('site_title', 'Architekturmodellbau – Kompetenzen')
 @section('page_title', 'Kompetenzen')
+@section('page_description', 'Professionelle Modellbau-Lösungen für Projektwettbewerbe, Baueingaben und Präsentationen: Präzise Gipsgrundlagen, kubische Modelle im Massstab 1:500 oder 1:200 und interaktive Präsentationsmodelle mit Licht, Ton und digitalen Animationen. Individuelle Beratung, detaillierte Umsetzung und höchste Qualität – für Ihre Architektur- und Planungsprojekte.')
 @section('content')
 <div class="flex flex-col md:grid md:grid-cols-12 md:gap-x-20">
   <x-competence.item 

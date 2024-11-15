@@ -1,4 +1,5 @@
 @extends('app')
+@section('page_description', 'Seit 1970 Ihr Partner im Modellbau: Architektur-, Design- und Prototypenmodelle sowie hochwertige Signaletik. Massgeschneiderte Komplettlösungen mit handwerklicher Präzision, optimaler Materialwahl und effizienten Prozessen – für perfekte Ergebnisse.')
 @section('content')
 <div class="md:grid md:grid-cols-12 md:gap-x-20">
   <div class="mt-110 md:mt-105 lg:mt-130 md:col-span-9 lg:col-span-6 md:col-start-3 lg:col-start-2 lg:min-h-[calc(100dvh_-_260px)] lg:flex lg:flex-col lg:justify-between">

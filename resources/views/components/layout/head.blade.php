@@ -1,7 +1,8 @@
 @php
 $siteTitle = trim($__env->yieldContent('site_title'));
 $title = $siteTitle ? "$siteTitle – " . __(env('APP_NAME')) : __(env('APP_NAME'));
-$description = __(env('APP_DESCRIPTION'));
+$description = trim($__env->yieldContent('page_description'));
+$description = $description ? $description : __(env('APP_DESCRIPTION'));
 @endphp
 <!doctype html>
 <html lang="de" class="scroll-smooth {{ Route::is('page.home') ? 'overflow-y-auto' : 'overflow-y-scroll' }}" x-data="{ show_menu: false }">

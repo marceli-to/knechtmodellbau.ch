@@ -1,6 +1,7 @@
 @extends('app')
 @section('site_title', 'Galerie')
 @section('page_title', 'Galerie')
+@section('page_description', 'Eine Auswahl von unseren Arbeiten.')
 @section('content')
 
 <div class="flex flex-col gap-y-20">

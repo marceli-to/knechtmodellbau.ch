@@ -1,6 +1,7 @@
 @extends('app')
 @section('site_title', 'Designmodellbau / Prototypen / Exponate – Kompetenzen')
 @section('page_title', 'Kompetenzen')
+@section('page_description', 'Professioneller Designmodellbau, Prototypen, Exponate und individuelle Awards. Perfekte Visualisierung ästhetischer Designs, Funktionstests für Produkte, animierte Displays für Messen & Ausstellungen, sowie massgeschneiderte Kunstwerke und Pokale. Optimal für Präsentationen, Investoren und besondere Ehrungen.')
 @section('content')
 <div class="flex flex-col md:grid md:grid-cols-12 md:gap-x-20">
   <x-competence.item 

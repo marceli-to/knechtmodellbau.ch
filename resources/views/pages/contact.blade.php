@@ -1,6 +1,7 @@
 @extends('app')
 @section('site_title', 'Kontakt')
 @section('page_title', 'Kontakt')
+@section('page_description', 'Kontaktieren Sie uns für individuelle Beratung, Angebote und Fragen zu unseren Leistungen.')
 @section('content')
 <div class="flex flex-col md:grid md:grid-cols-12 md:gap-x-20 gap-y-40 md:gap-y-60">
   <div class="md:col-span-8 md:col-start-3 lg:col-span-6 lg:col-start-2">

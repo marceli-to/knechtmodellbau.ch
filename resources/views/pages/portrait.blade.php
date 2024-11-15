@@ -1,6 +1,7 @@
 @extends('app')
 @section('site_title', 'Portrait')
 @section('page_title', 'Portrait')
+@section('page_description', 'Knecht Modellbau AG – Tradition seit 1970: Vom handwerklichen Können bis zu modernsten Produktionsverfahren. Spezialist für Architektur-, Design- und Prototypenmodelle, Signaletik und mehr. Seit über 40 Jahren engagierter Lehrbetrieb für Architekturmodellbauer/innen EFZ.')
 @section('content')
 
 <div class="md:grid md:grid-cols-12 md:gap-x-20">

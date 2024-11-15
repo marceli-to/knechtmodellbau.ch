@@ -1,6 +1,7 @@
 @extends('app')
 @section('site_title', 'Signaletik – Kompetenzen')
 @section('page_title', 'Kompetenzen')
+@section('page_description', 'Signaletik für klare Kommunikation: Hochwertige dreidimensionale Beschriftungen und visuelle Hinweise aus vielfältigen Materialien. Perfekt für Ausstellungen, öffentliche Räume und Veranstaltungen – für ein optimiertes Benutzererlebnis und eindrucksvolle Orientierung.')
 @section('content')
 <div class="flex flex-col md:grid md:grid-cols-12 md:gap-x-20">
   <x-competence.item 
