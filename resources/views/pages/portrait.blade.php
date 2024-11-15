@@ -31,6 +31,7 @@
             name="Lee Brogle" 
             title="Architekturmodellbauer" 
             bio="Seit 2019 bei Knecht Modellbau" 
+            email="brogle@knechtmodellbau.ch"
             image="knecht_modellbau_portrait_03_lee_brogle" />
         </div>
         <div class="md:col-span-6 lg:col-span-3">
@@ -64,8 +65,8 @@
         <div class="md:col-span-6 lg:col-span-6">
           <x-team.portrait 
             name="Dario Bugmann" 
-            title="Architekturmodellbauer / Hochbauzeichner" 
-            bio="Bachelor of Arts in Architektur" 
+            title="Architekturmodellbauer / Hochbauzeichner / Bachelor of Arts in Architektur" 
+            bio="Seit 2020 bei Knecht Modellbau" 
             image="knecht_modellbau_portrait_07_dario_bugmann"
             class="md:!col-span-6"
             captionClass="lg:hidden"
@@ -91,8 +92,8 @@
       <div class="lg:col-span-3">
         <x-team.caption 
           name="Dario Bugmann" 
-          title="Architekturmodellbauer / Hochbauzeichner" 
-          bio="Bachelor of Arts in Architektur" />
+          title="Architekturmodellbauer / Hochbauzeichner / Bachelor of Arts in Architektur" 
+          bio="Seit 2020 bei Knecht Modellbau" />
       </div>
     </div>
   </div>
