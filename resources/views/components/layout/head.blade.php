@@ -3,6 +3,26 @@ $siteTitle = trim($__env->yieldContent('site_title'));
 $title = $siteTitle ? "$siteTitle – " . __(env('APP_NAME')) : __(env('APP_NAME'));
 $description = trim($__env->yieldContent('page_description'));
 $description = $description ? $description : __(env('APP_DESCRIPTION'));
+
+// Handle open graph image
+$opengraph_image = 'opengraph.jpg';
+
+if (Route::is('page.home')) {
+  $opengraph_image = 'opengraph_home.jpg';
+}
+if (Route::is('page.portrait')) {
+  $opengraph_image = 'opengraph_portrait.jpg';
+}
+if (Route::is('page.gallery')) {
+  $opengraph_image = 'opengraph_galerie.jpg';
+}
+if (Route::is('page.competences*')) {
+  $opengraph_image = 'opengraph_kompetenzen.jpg';
+}
+if (Route::is('page.contact')) {
+  $opengraph_image = 'opengraph_kontakt.jpg';
+}
+
 @endphp
 <!doctype html>
 <html lang="de" class="scroll-smooth {{ Route::is('page.home') ? 'overflow-y-auto' : 'overflow-y-scroll' }}" x-data="{ show_menu: false }">
@@ -15,12 +35,12 @@ $description = $description ? $description : __(env('APP_DESCRIPTION'));
 <meta property="og:description" content="{{ $description }}">
 <meta property="og:url" content="{{ url()->current()}}">
 <meta property="og:site_name" content="{{ $title }}">
-<meta property="og:image" content="{{ asset('opengraph.jpg') }}">
+<meta property="og:image" content="{{ asset($opengraph_image) }}">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:description" content="{{ $description }}">
 <meta name="twitter:title" content="{{ $title }}">
-<meta property="twitter:image" content="{{ asset('opengraph.jpg') }}">
+<meta property="twitter:image" content="{{ asset($opengraph_image) }}">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 <meta name="csrf-token" content="{{ csrf_token() }}">
