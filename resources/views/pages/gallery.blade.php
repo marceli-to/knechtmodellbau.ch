@@ -181,5 +181,26 @@
     </div>
   </div>
 
+  <div class="md:grid md:grid-cols-12 md:gap-x-20">
+    <div class="flex flex-col gap-y-20 md:col-span-7 md:grid md:grid-cols-subgrid md:gap-20">
+      <div class="md:col-span-7">
+        <x-gallery.visual 
+          image="knecht_modellbau_galerie_22"
+          :height="404"
+          :width="900"
+        />
+      </div>
+    </div>
+    <div class="flex flex-col gap-y-20 md:col-span-5 md:grid md:grid-cols-subgrid md:gap-20">
+      <div class="md:col-span-5">
+        <x-gallery.visual 
+          image="knecht_modellbau_galerie_23"
+          :height="900"
+          :width="572"
+        />
+      </div>
+    </div>
+  </div>
+
 </div>
 @endsection
