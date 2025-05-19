@@ -6,6 +6,9 @@
 ])
 <picture>
   <source 
+    srcset="/img/{{ $image }}-900w.avif 900w, /img/{{ $image }}-1200w.avif 1200w, /img/{{ $image }}-1600w.avif 1600w, /img/{{ $image }}-2000w.avif 2000w" 
+    type="image/avif">
+  <source 
     srcset="/img/{{ $image }}-900w.webp 900w, /img/{{ $image }}-1200w.webp 1200w, /img/{{ $image }}-1600w.webp 1600w, /img/{{ $image }}-2000w.webp 2000w" 
     type="image/webp">
   <source 

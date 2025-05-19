@@ -15,8 +15,6 @@
       <div>
         <strong>2025 bieten wir folgende Schnuppertage an:</strong>
         <ul class="mt-4">
-          <li>26. Februar 2025</li>
-          <li>30. April 2025</li>
           <li>24. September 2025</li>
           <li>5. November 2025</li>
         </ul>
