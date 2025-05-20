@@ -136,6 +136,14 @@
       <div>
         <x-team.visual image="knecht_modellbau_portrait_13" class="w-full h-auto aspect-[760/460]" height="460" width="760" />
       </div>
+      <div>
+        <x-team.visual image="knecht_modellbau_portrait_14" class="w-full h-auto aspect-[760/460]" height="460" width="760" />
+      </div>
+    </div>
+    <div class="md:col-span-12 lg:col-span-6 flex flex-col gap-y-20">
+      <div>
+        <x-team.visual image="knecht_modellbau_portrait_15" class="w-full h-auto aspect-[760/460]" height="460" width="760" />
+      </div>
       <div class="flex flex-col md:grid md:grid-cols-12 gap-y-20 md:gap-y-0 md:gap-x-20">
         <div class="md:col-span-6 lg:col-span-6">
           <x-team.portrait 
@@ -143,62 +151,36 @@
             title="Administration / Rechnungswesen" 
             email="c.smolders@knechtmodellbau.ch"
             bio="Seit 2000 bei Knecht Modellbau"
-            image="knecht_modellbau_portrait_14_claudia_smolders" 
+            image="knecht_modellbau_portrait_16_claudia_smolders" 
             class="md:!col-span-6"
             captionClass="lg:hidden"
           />
         </div>
         <div class="md:col-span-6 lg:col-span-6">
-          <x-team.visual image="knecht_modellbau_portrait_15" />
-        </div>
-      </div>
-    </div>
-    <div class="md:col-span-12 lg:col-span-6 flex flex-col gap-y-20">
-      <div>
-        <x-team.visual image="knecht_modellbau_portrait_16" class="w-full h-auto aspect-[760/460]" height="460" width="760" />
-      </div>
-      <div class="flex flex-col md:grid md:grid-cols-12 gap-y-20 md:gap-y-0 md:gap-x-20">
-        <div class="md:col-span-6 lg:col-span-6">
           <x-team.portrait 
-            name="Joya Stettler" 
-            title="Architekturmodellbauerin" 
+            name="Aita Schäfli" 
+            title="Lernende Architekturmodellbau" 
             bio="Seit 2023 bei Knecht Modellbau"
-            image="knecht_modellbau_portrait_16_joya_stettler" 
             class="md:!col-span-6"
-            captionClass="lg:hidden"
-          />
-        </div>
-        <div class="md:col-span-6 lg:col-span-6">
-          <x-team.portrait 
-            name="Franziska Loser" 
-            title="Architekturmodellbauerin" 
-            bio="Seit 2018 bei Knecht Modellbau" 
-            image="knecht_modellbau_portrait_17_franziska_loser"
-            class="md:!col-span-6"
+            image="knecht_modellbau_portrait_17_aita_schaefli"
             captionClass="lg:hidden"
           />
         </div>
       </div>
     </div>
     <div class="hidden lg:col-span-12 lg:grid lg:grid-cols-12 lg:gap-x-20">
-      <div class="lg:col-span-3">
+      <div class="lg:col-span-3 lg:col-start-7">
         <x-team.caption 
           name="Claudia Smolders" 
           title="Administration / Rechnungswesen" 
-          email="c.smolders@knechtmodellbau.ch"
-          bio="Seit 2000 bei Knecht Modellbau" />
-      </div>
-      <div class="lg:col-span-3 lg:col-start-7">
-        <x-team.caption 
-          name="Joya Stettler" 
-          title="Architekturmodellbauerin" 
-          bio="Seit 2023 bei Knecht Modellbau" />
+          bio="Seit 2000 bei Knecht Modellbau"
+          email="c.smolders@knechtmodellbau.ch" />
       </div>
       <div class="lg:col-span-3">
         <x-team.caption 
-          name="Franziska Loser" 
-          title="Architekturmodellbauerin" 
-          bio="Seit 2018 bei Knecht Modellbau" />
+          name="Aita Schäfli" 
+          title="Lernende Architekturmodellbau" 
+          bio="Seit 2023 bei Knecht Modellbau" />
       </div>
     </div>
   </div>
@@ -218,21 +200,21 @@
       <div class="flex flex-col md:grid md:grid-cols-12 gap-y-20 md:gap-y-0 md:gap-x-20">
         <div class="md:col-span-6 lg:col-span-6">
           <x-team.portrait 
-            name="Ronja Lingenhag" 
+            name="Joya Stettler" 
             title="Architekturmodellbauerin" 
-            bio="Seit 2020 bei Knecht Modellbau"
-            image="knecht_modellbau_portrait_20_ronja_lingenhag" 
+            bio="Seit 2023 bei Knecht Modellbau"
+            image="knecht_modellbau_portrait_20_joya_stettler" 
             class="md:!col-span-6"
             captionClass="lg:hidden"
           />
         </div>
         <div class="md:col-span-6 lg:col-span-6">
           <x-team.portrait 
-            name="Aita Schäfli" 
-            title="Lernende Architekturmodellbau" 
-            bio="Seit 2023 bei Knecht Modellbau"
+            name="Franziska Loser" 
+            title="Architekturmodellbauerin" 
+            bio="Seit 2018 bei Knecht Modellbau" 
+            image="knecht_modellbau_portrait_21_franziska_loser"
             class="md:!col-span-6"
-            image="knecht_modellbau_portrait_21_aita_schaefli"
             captionClass="lg:hidden"
           />
         </div>
@@ -241,15 +223,15 @@
     <div class="hidden lg:col-span-12 lg:grid lg:grid-cols-12 lg:gap-x-20">
       <div class="lg:col-span-3 lg:col-start-7">
         <x-team.caption 
-          name="Ronja Lingenhag" 
+          name="Joya Stettler" 
           title="Architekturmodellbauerin" 
-          bio="Seit 2020 bei Knecht Modellbau" />
+          bio="Seit 2023 bei Knecht Modellbau" />
       </div>
       <div class="lg:col-span-3 lg:col-start-10">
         <x-team.caption 
-          name="Aita Schäfli" 
-          title="Lernende Architekturmodellbau" 
-          bio="Seit 2023 bei Knecht Modellbau" />
+          name="Franziska Loser" 
+          title="Architekturmodellbauerin" 
+          bio="Seit 2018 bei Knecht Modellbau" />
       </div>
     </div>
   </div>
@@ -276,6 +258,5 @@
         imageClass="w-full block lg:absolute lg:!h-full object-cover"/>
     </div>
   </div>
-
 </div>
 @endsection
