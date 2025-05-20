@@ -8,7 +8,7 @@
 ])
 <figure>
   <picture>
-    <source srcset="/img/{{ $image }}-700w.avif 700w, /img/{{ $image }}-1200w.avif 1200w" type="image/avif">
+    {{-- <source srcset="/img/{{ $image }}-700w.avif 700w, /img/{{ $image }}-1200w.avif 1200w" type="image/avif"> --}}
     <source srcset="/img/{{ $image }}-700w.webp 700w, /img/{{ $image }}-1200w.webp 1200w" type="image/webp">
     <source srcset="/img/{{ $image }}-700w.jpg 700w, /img/{{ $image }}-1200w.jpg 1200w" type="image/jpeg">
     <img 
