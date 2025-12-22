@@ -13,10 +13,12 @@
     </div>
     <div class="md:col-start-3 md:col-span-8 lg:col-span-4 mt-40 md:mt-60 lg:mt-0 bg-aqua min-h-200 p-12 lg:p-16">
       <div>
-        <strong>2025 bieten wir folgende Schnuppertage an:</strong>
+        <strong>2026 bieten wir folgende Schnuppertage an:</strong>
         <ul class="mt-4">
-          <li>24. September 2025</li>
-          <li>5. November 2025</li>
+          <li>11. Februar 2026</li>
+          <li>8. April 2026</li>
+          <li>20. Mai 2026</li>
+          <li>25. November 2026</li>
         </ul>
         <p>
           Bewirb Dich jetz per E-Mail an:<br>
