@@ -51,5 +51,74 @@ if (Route::is('page.contact')) {
 <meta name="apple-mobile-web-app-title" content="{{ $title }}" />
 {{-- <link rel="manifest" href="/site.webmanifest" /> --}}
 @vite('resources/css/app.css')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://knechtmodellbau.ch/#organization",
+  "name": "Knecht Modellbau AG",
+  "description": "Seit 1970 Ihr Partner im Modellbau: Architektur-, Design- und Prototypenmodelle sowie hochwertige Signaletik.",
+  "url": "https://knechtmodellbau.ch",
+  "logo": "https://knechtmodellbau.ch/opengraph_home.jpg",
+  "image": "https://knechtmodellbau.ch/opengraph_home.jpg",
+  "telephone": "+41 56 426 09 31",
+  "email": "info@knechtmodellbau.ch",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Jurastrasse 58",
+    "addressLocality": "Wettingen",
+    "postalCode": "5430",
+    "addressCountry": "CH"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "47.4621",
+    "longitude": "8.3219"
+  },
+  "foundingDate": "1970",
+  "areaServed": {
+    "@type": "Country",
+    "name": "Switzerland"
+  },
+  "knowsAbout": [
+    "Architekturmodellbau",
+    "Designmodellbau",
+    "Prototypen",
+    "Exponate",
+    "Signaletik",
+    "3D-Druck",
+    "CNC-Bearbeitung"
+  ],
+  "makesOffer": [
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Architekturmodellbau",
+        "description": "Präzise Architekturmodelle für Projektwettbewerbe, Baueingaben und Präsentationen"
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Designmodellbau & Prototypen",
+        "description": "Professioneller Designmodellbau, Prototypen und Exponate"
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Signaletik",
+        "description": "Hochwertige dreidimensionale Beschriftungen und visuelle Leitsysteme"
+      }
+    }
+  ],
+  "sameAs": [
+    "https://www.instagram.com/knechtmodellbau.ch/"
+  ]
+}
+</script>
 </head>
 
