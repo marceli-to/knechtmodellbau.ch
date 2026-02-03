@@ -2,6 +2,10 @@ import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
 import { resolve } from 'path';
 export default defineConfig({
+  server: {
+    host: 'knechtmodellbau.ch.test',
+    cors: true,
+  },
   resolve: {
     alias: {
       img: resolve('resources/img'),

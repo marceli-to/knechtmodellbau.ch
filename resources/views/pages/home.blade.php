@@ -9,7 +9,7 @@
       </div>
       <div class="md:min-h-[620px] mb-40 md:mb-20 lg:hidden">
         <x-swiper.wrapper>
-          <x-swiper.slide image="knecht_modellbau_home_01" alt="" />
+          <x-swiper.slide image="knecht_modellbau_home_01" alt="" :priority="true" />
           <x-swiper.slide image="knecht_modellbau_home_02" alt="" />
           <x-swiper.slide image="knecht_modellbau_home_03" alt="" />
           <x-swiper.slide image="knecht_modellbau_home_04" alt="" />
@@ -26,7 +26,7 @@
     class="hidden lg:relative lg:z-40 lg:block lg:col-span-5 md:col-start-8"
     :class="{ '!z-10': show_menu }">
     <x-swiper.wrapper>
-      <x-swiper.slide image="knecht_modellbau_home_01" alt="" />
+      <x-swiper.slide image="knecht_modellbau_home_01" alt="" :priority="true" />
       <x-swiper.slide image="knecht_modellbau_home_02" alt="" />
       <x-swiper.slide image="knecht_modellbau_home_03" alt="" />
       <x-swiper.slide image="knecht_modellbau_home_04" alt="" />
