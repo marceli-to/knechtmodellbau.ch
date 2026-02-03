@@ -10,7 +10,8 @@
       'alt' => 'Designmodellbau / Prototypen / Exponate',
       'title' => 'Designmodellbau / Prototypen / Exponate',
       'height' => 1200,
-      'width' => 789
+      'width' => 789,
+      'priority' => true
     ]">
     <h2 class="font-semi">Designmodelle / Prototypen</h2>
     <p>Designmodellbau und Prototypen sind zentrale Elemente im Entwicklungsprozess. Sie erleichtern die Präsentation eines Produkts auf einer Messe, bei der Geschäftsleitung, bei potenziellen Investoren oder Kunden. Der Designmodellbau konzentriert sich auf die Visualisierung von ästhetischen Aspekten, Proportionen und Materialwahl, um Ideen klar zu kommunizieren. Prototypen hingegen dienen dazu, die Funktionalität und Leistung eines Produkts zu testen und potenzielle Investoren zu überzeugen. Beide Schritte sind eng miteinander verbunden, um sicherzustellen, dass das Design ansprechend und die Funktionalität effizient ist. Mit Hilfe von Elektronik, Medien- und Lichttechnik können die Modelle animiert und gesteuert werden.</p>

@@ -10,7 +10,8 @@
       'alt' => 'Spektrum',
       'title' => 'Spektrum',
       'height' => 1200,
-      'width' => 789
+      'width' => 789,
+      'priority' => true
     ]">
     <p>Das gesamte Spektrum der für den modernen Modellbau erforderlichen Fähigkeiten gehört zu unseren Kompetenzen. Dazu gehören handwerkliches Geschick, Vorstellungsvermögen, Ideenreichtum, ästhetisches Empfinden, mechanische Kenntnisse, 3D-Konstruktion, Umgang mit konventionellen und CNC-Maschinen und 3D-Druckern. Auch das Zerspanen und 3D-Fräsen von Kunststoff, Aluminium, Holz und Stahl sowie das Schweissen, Löten von Elektronik, GFK-Laminieren, Oberflächenbehandlungen, Lackieren, Vakuumgiessen, Folieren, Gipsabguss bis hin zur Montage gehören zu unseren Kompetenzen.</p>
     <p>Darüber hinaus haben wir langjährige Partner für Elektronik, Steuerungs-, Licht- und Medientechnik, für grafische Druckverfahren und Oberflächenveredelung.</p>

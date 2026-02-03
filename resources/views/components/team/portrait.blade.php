@@ -4,7 +4,8 @@
   'email' => null, 
   'bio' => null,
   'image',
-  'captionClass' => null
+  'captionClass' => null,
+  'priority' => false
 ])
 <figure>
   <picture>
@@ -18,7 +19,7 @@
       height="700" 
       width="1045" 
       class="w-full h-auto"
-      loading="lazy">
+      loading="{{ $priority ? 'eager' : 'lazy' }}">
   </picture>
   <x-team.caption 
     name="{{ $name }}" 

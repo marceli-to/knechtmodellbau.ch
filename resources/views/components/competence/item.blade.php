@@ -4,7 +4,8 @@
     'alt' => null,
     'title' => null,
     'height' => 700,
-    'width' => 460
+    'width' => 460,
+    'priority' => false
   ]
 ])
 <div {{ $attributes->merge(['class' => 'md:col-span-8 md:col-start-3 lg:col-span-4 lg:col-start-2']) }}>
@@ -20,5 +21,6 @@
     height="{{ $image['height'] }}"
     alt="{{ $image['alt'] }}"
     title="{{ $image['title'] }}"
+    priority="{{ $image['priority'] }}"
     class="w-full h-auto" />
 </figure>

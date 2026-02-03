@@ -10,7 +10,8 @@
       'alt' => 'Architekturmodellbau',
       'title' => 'Architekturmodellbau',
       'height' => 1200,
-      'width' => 789
+      'width' => 789,
+      'priority' => true
     ]">
     <h2 class="font-semi">Gipsgrundlagen für Projektwettbewerbe</h2>
     <p>Bei der Erstellung von Grundlagenmodellen für einen Projektwettbewerb beraten wir Sie gerne bei der Wahl eines geeigneten Modellausschnitt oder Modelleinsatz und beschaffen auf Wunsch die digitalen Daten der amtlichen Vermessung mit Höhenkurven und Gebäuden. Diese Daten werden modellbautechnisch nachbearbeitet. Die Modelldaten werden dem Kunden auf Wunsch als DWG/DXF-Datei zur Verfügung gestellt. Bevor das Urmodell hergestellt wird, erhält der Kunde 3D-Daten des Modells zur Kontrolle. Anhand der nachbearbeiteten Modelldaten wird das Urmodell erstellt, welches zur Herstellung der Negativform dient. Mit Hilfe dieser Negativform werden die Gipsmodelle abgeformt.</p>

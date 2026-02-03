@@ -2,7 +2,8 @@
   'image',
   'imageClass' => '',
   'height' => 700,
-  'width' => 1045
+  'width' => 1045,
+  'priority' => false
 ])
 <picture>
   <source srcset="/img/{{ $image }}-700w.avif 700w, /img/{{ $image }}-1200w.avif 1200w, /img/{{ $image }}-1600w.avif 1600w" type="image/avif">
@@ -15,6 +16,6 @@
     height="{{ $height }}" 
     width="{{ $width }}" 
     class="w-full h-auto {{ $imageClass }}"
-    loading="lazy">
+    loading="{{ $priority ? 'eager' : 'lazy' }}">
 </picture>
 

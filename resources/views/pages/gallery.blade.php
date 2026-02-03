@@ -13,6 +13,7 @@
           image="knecht_modellbau_galerie_01"
           :height="572"
           :width="900"
+          :priority="true"
         />
       </div>
       <div class="md:col-span-7">
@@ -20,6 +21,7 @@
           image="knecht_modellbau_galerie_02"
           :height="405"
           :width="900"
+          :priority="true"
         />
       </div>
       <div class="md:col-span-5 md:col-start-3">
@@ -27,6 +29,7 @@
           image="knecht_modellbau_galerie_03"
           :height="900"
           :width="900"
+          :priority="true"
         />
       </div>
     </div>

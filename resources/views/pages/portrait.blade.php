@@ -21,10 +21,11 @@
             title="Geschäftsführer" 
             email="ch.smolders@knechtmodellbau.ch"
             bio="Seit 1988 bei Knecht Modellbau"
-            image="knecht_modellbau_portrait_01_christoph_smolders" />
+            image="knecht_modellbau_portrait_01_christoph_smolders"
+            priority="true" />
         </div>
         <div class="md:col-span-6 lg:col-span-3">
-          <x-team.visual image="knecht_modellbau_portrait_02" />
+          <x-team.visual image="knecht_modellbau_portrait_02" priority="true" />
         </div>
         <div class="md:col-span-6 lg:col-span-3">
           <x-team.portrait 
@@ -32,14 +33,16 @@
             title="Architekturmodellbauer" 
             bio="Seit 2019 bei Knecht Modellbau" 
             email="brogle@knechtmodellbau.ch"
-            image="knecht_modellbau_portrait_03_lee_brogle" />
+            image="knecht_modellbau_portrait_03_lee_brogle"
+            priority="true" />
         </div>
         <div class="md:col-span-6 lg:col-span-3">
           <x-team.portrait 
             name="Simon Littwin" 
             title="Lernender Architekturmodellbau" 
             bio="Seit 2021 bei Knecht Modellbau" 
-            image="knecht_modellbau_portrait_04_simon_littwin" />
+            image="knecht_modellbau_portrait_04_simon_littwin"
+            priority="true" />
         </div>
       </div>
     </div>

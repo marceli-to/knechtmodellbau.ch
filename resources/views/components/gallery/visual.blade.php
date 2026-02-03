@@ -2,7 +2,8 @@
   'image',
   'class' => null,
   'height' => null,
-  'width' => null
+  'width' => null,
+  'priority' => false
 ])
 <picture>
   <source 
@@ -21,6 +22,6 @@
     height="{{ $height }}" 
     width="{{ $width }}" 
     class="w-full h-auto {{ $class }}"
-    loading="lazy">
+    loading="{{ $priority ? 'eager' : 'lazy' }}">
 </picture>
 
